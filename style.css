@@ -14,7 +14,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 100px auto 0;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ p {
 table {
   border-collapse: collapse;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 64px;
 }
 
 thead tr {
@@ -71,4 +71,15 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
   background-color: #f1f3f5;
+}
+
+footer {
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: #777;
+  font-size: 16px;
 }
