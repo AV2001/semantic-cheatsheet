@@ -5,6 +5,7 @@
 }
 
 body {
+  color: #333;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -19,19 +20,19 @@ body {
 }
 
 h1 {
-  color: #333;
   font-size: 52px;
   margin-bottom: 24px;
 }
 
-p {
-  color: #555;
+.text-primary {
   font-size: 20px;
   line-height: 1.4;
+  margin-bottom: 48px;
 }
 
 .description {
-  margin-bottom: 48px;
+  color: #555;
+  line-height: 1.4;
 }
 
 table {
@@ -61,6 +62,7 @@ th:nth-child(2) {
 }
 
 td {
+  color: #555;
   font-size: 20px;
   text-align: left;
 }
